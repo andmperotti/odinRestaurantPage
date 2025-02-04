@@ -18,15 +18,15 @@ export default function fillContent(){
     sushiImage.style.width = '100%'
     divContent.appendChild(sushiImage)
 
+    let home = document.createElement('button')
+    home.textContent= "Home"
+    nav.appendChild(home)
+
     let menu = document.createElement('button')
     menu.textContent= "Menu"
     nav.appendChild(menu)
 
-    let about = document.createElement('button')
-    about.textContent= "About"
-    nav.appendChild(about)
-
-    let order = document.createElement('button')
-    order.textContent= "Order"
-    nav.appendChild(order)
+    let contact = document.createElement('button')
+    contact.textContent= "Contact"
+    nav.appendChild(contact)
 }
