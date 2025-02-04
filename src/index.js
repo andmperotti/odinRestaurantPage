@@ -1,1 +1,2 @@
-console.log('hello there buddy!')
+import content from "./htmlContent.js" 
+content()
