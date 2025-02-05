@@ -20,13 +20,16 @@ export default function fillContent(){
 
     let home = document.createElement('button')
     home.textContent= "Home"
+    home.id='#home'
     nav.appendChild(home)
 
     let menu = document.createElement('button')
     menu.textContent= "Menu"
+    menu.id='#menu'
     nav.appendChild(menu)
 
     let contact = document.createElement('button')
     contact.textContent= "Contact"
+    contact.id='#contact'
     nav.appendChild(contact)
 }
